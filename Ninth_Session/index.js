@@ -16,7 +16,7 @@
 //Q2.
 
 // let num = -5;
-// if(num >= 0){
+// if(num > 0){
 //     console.log("Positive Number");
     
 // }
@@ -66,7 +66,7 @@
 
 // let num1 = 18;
 // let num2 = 25;
-//  if(num1 <= num2){
+//  if(num1 < num2){
 //     console.log( num2 + " is greater");
     
 //  }

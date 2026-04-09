@@ -441,3 +441,143 @@
 // Num1 :  22 Type :  number
 // Num2 :  33 Type :  number
 // Sum :  55 Type :  number
+
+
+
+//PRACTICE SET FOR OPERATORS
+
+// let a = 10;
+// console.log("Initial = ", a);
+// a += 5;
+// console.log(a);
+// a -= 5;
+// console.log(a);
+// a *= 5;
+// console.log(a);
+// a /= 5;
+// console.log(a);
+// a %= 5;
+// console.log(a);
+// a **= 2;
+// console.log(a);
+
+// let a = 20;
+// let b = 3;
+// let sum = a + b ;
+// console.log(sum);
+// let dif = a - b ;
+// console.log(dif);
+// let exp = a ** b ;
+// console.log(exp);
+
+
+// let a = 5;
+// console.log("Before :", a++);
+// a ++;
+// console.log("After :", a);
+
+// a++;
+// console.log("Before :", a);
+// console.log("After :", a++);
+// console.log(a);
+
+// let a = 10;
+// console.log("Before :", --a);
+// --a;
+// console.log("After :", --a);
+// console.log("Before :", --a);
+// --a;
+// console.log("After :", a);
+// --a;
+// console.log("After :", a);
+
+// let a = 5;
+// console.log("Post increment result :",a++);
+// console.log("Pre increment result :",++a);
+
+// let a = 10;
+// console.log("Integer Operations :");
+// console.log("Initial a = ",a);
+// console.log("Post-increment : ",a++);
+// console.log("after = ",a);
+// console.log("Pre-increment : ",++a);
+// console.log("Post-decrement : ",a--);
+// console.log("after = ",a);
+// console.log("Pre-decrement : ",--a);
+// console.log("after = ",a);
+
+// let b = 100000n;
+// console.log("Integer Operations :");
+// console.log("Initial b = ",b);
+// console.log("Post-increment : ",b++);
+// console.log("after = ",b);
+// console.log("Pre-increment : ",++b);
+// console.log("Post-decrement : ",b--);
+// console.log("after = ",b);
+// console.log("Pre-decrement : ",--b);
+// console.log("after = ",b);
+
+// let c = 2.5;
+// console.log("Integer Operations :");
+// console.log("Initial c = ",c);
+// console.log("Post-increment : ",c++);
+// console.log("after = ",c);
+// console.log("Pre-increment : ",++c);
+// console.log("Post-decrement : ",c--);
+// console.log("after = ",c);
+// console.log("Pre-decrement : ",--c);
+// console.log("after = ",c);
+
+// let x = 5;
+// x++;
+// console.log(x);
+// ++x;
+// console.log(x);
+// x--;
+// console.log(x);
+// --x;
+// console.log(x);
+
+// let x = 5;
+// let result = x++ +  ++x  +  --x  +  x--;
+// console.log(result);
+// console.log(x);
+
+// let a = 10;
+// console.log(a++); 
+// console.log(++a);
+// console.log(a--);
+// console.log(--a);
+
+// console.log(5 == 5);
+// console.log(5 === 5);
+// console.log(10 != 20);
+// console.log(10 !== 20);
+
+// let  num = 7;
+// (num % 2 == 0)? console.log("Even"): console.log("Odd");
+
+// let  num2 = 8;
+// (num2 % 2 == 0)? console.log("Even"): console.log("Odd");
+
+// let a = 23;
+// let b = 45;
+// (a < b)? console.log("B is max = ",b) : console.log(" A is max = ",a);
+
+// let num = 5;
+// let num = 0;
+// let num = -9;
+// if(num >= 0){
+//     if(num > 0){
+//         console.log("Positive number");
+        
+//     }
+//     else{
+//         console.log("Zero");
+        
+//     }
+// }
+// else{
+//     console.log("Negative number");
+    
+// }
