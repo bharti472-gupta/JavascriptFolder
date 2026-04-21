@@ -164,7 +164,49 @@
 // }
 
 //Q5.
+
+// let year = 2021;
+// if(year % 4 == 0){
+//     if(year % 100 == 0){
+//         if(year % 400 == 0){
+//             console.log("Leap Year");
+
+//         }
+//         else{
+//             console.log("Not a Leap Year");
+
+//         }
+//     }else{
+//         console.log("Leap Year");
+
+//     }
+// }
+// else{
+//     console.log("Not a Leap Year");
+
+// }
+
 //Q6.
+// let a = 5;
+// let b = 5;
+// let c = 8;
+
+// if (a + b > c && b + c > a && a + c > b) {
+//     console.log("Valid Triangle");
+
+//     if (a === b && b === c) {
+//         console.log("Equilateral Triangle");
+//     } 
+//     else if (a === b || b === c || a === c) {
+//         console.log("Isosceles Triangle");
+//     } 
+//     else {
+//         console.log("Scalene Triangle");
+//     }
+
+// } else {
+//     console.log("Not a Valid Triangle");
+// }
 
 //Q7.
 
@@ -211,10 +253,10 @@
 // }
 // else{
 //     if(SP == CP){
-//         console.log("No Profit No Loss");  
+//         console.log("No Profit No Loss");
 //     }
 //     else{
-//         console.log("Loss");  
+//         console.log("Loss");
 //     }
 // }
 

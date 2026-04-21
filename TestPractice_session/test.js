@@ -581,3 +581,63 @@
 //     console.log("Negative number");
     
 // }
+
+
+// let a = 5;
+// let b = 5;
+// let c = 8;
+
+// if (a + b > c && b + c > a && a + c > b) {
+//     console.log("Valid Triangle");
+
+//     if (a === b && b === c) {
+//         console.log("Equilateral Triangle");
+//     } 
+//     else if (a === b || b === c || a === c) {
+//         console.log("Isosceles Triangle");
+//     } 
+//     else {
+//         console.log("Scalene Triangle");
+//     }
+// } 
+// else {
+//     console.log("Not a Valid Triangle");
+// }
+
+
+// let SP = 1;
+// let EP = 5;
+// while(SP <= EP){
+//     console.log(SP);
+//     SP = SP + 1; 
+// }
+
+ //let SP = 1;
+ //let EP = 5;
+ //let sum = 0;
+ //while(SP <= EP){
+   // sum = sum + SP;
+   // console.log(sum);
+   //  SP = SP + 1; 
+ //}
+
+ //doubt:-
+ //console.log([] == false);
+ //console.log(Number([]));
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
