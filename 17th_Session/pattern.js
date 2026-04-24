@@ -548,7 +548,7 @@
 //     }
 //     for(let k = 1; k <= i; k++){
 //         process.stdout.write("*");
-        
+
 //     }
 
 // process.stdout.write("\n");
@@ -601,7 +601,7 @@
 // for (let i = 1; i <= m; i++) {
 //     for (let j = 1; j <= c; j++) {
 //         process.stdout.write(" ");
-       
+
 //     }
 //     c = c + 1;
 //     for (let k = 1; k <= b; k++) {
@@ -662,10 +662,10 @@
 //  ***
 //   *
 
-
+//Q19.
 //Another method
-
-// let num = 3;
+//user k basis pr
+// let num = 6;
 // let a = 1;
 // for(let i  = 1; i <= num; i++){
 //     for(let j = i; j <= num; j++){
@@ -679,22 +679,103 @@
 
 //  }
 
-// num--;
 
-// let b = (num * 2) - 1;
-// for(let i = 1; i <= num; i++){
-//     for(let j = 1; j <= num; j++){
+// let n = 5;
+
+// let b = (n * 2) - 1;
+// for(let i  = 1; i <= n; i++){
+//     for(let j = 1; j <= i + 1; j++){
 //         process.stdout.write(" ");
 //     }
-//     for(let k = 1; k <= b; k++){
-//         if(b == 1 ){
-//             process.stdout.write(" ");
-//             process.stdout.write("*");
-//         }
-//         else{
+//     for(let k = 1; k <= b; k++ ){
 //         process.stdout.write("*");
-//         }
-//      }
+//     }
 //     b = b - 2;
+//     process.stdout.write("\n");
+
+//  }
+
+
+//Q18.
+//user k basis pr
+// let num = 5;
+// let a = 1;
+// for (let i = 1; i <= num; i++) {
+//     for (let j = i; j <= num; j++) {
+//         process.stdout.write(" ");
+//     }
+//     for (let k = 1; k <= a; k++) {
+//         process.stdout.write(" ");
+//         process.stdout.write("*");
+//     }
+//     a = a + 1;
+//     process.stdout.write("\n");
+
+// }
+
+// let n = 4;
+// let b = n;
+// for (let i = 1; i <= n; i++) {
+//     for (let j = 1; j <= i + 2; j++) {
+//         process.stdout.write(" ");
+//     }
+// for( k = 1; k <= b; k++){
+//     process.stdout.write("*");
+//     process.stdout.write(" ");
+// }
+// b = b - 1;
+// process.stdout.write("\n");
+
+// }
+
+
+
+//Q17.
+//user k basis pr
+// let n = 5;
+// for(let i = 1; i <= n; i++){
+//     for(let j = i ; j <= n; j++){
+//         process.stdout.write(" ");
+//     }
+//     for(let k = 1; k <= i; k++){
+//         process.stdout.write("*");
+
+//     }
+
+// process.stdout.write("\n");
+
+// }
+
+// let m = 4;
+// let a = m;
+// for(let i = 1; i <= m; i++){
+//     for(let j = 1 ; j <= i + 1; j++){
+//         process.stdout.write(" ");
+//     }
+//     for(let k = 1; k <= a; k++){
+//         process.stdout.write("*");
+//     }
+//     a = a - 1;
+//     process.stdout.write("\n");
+// }
+
+
+//Q16.
+//user k basis pr
+// let n = 4;
+// for(let i = 1; i <= n; i++){
+//     for(let j = 1; j <= i; j++){
+//         process.stdout.write("*");
+//         process.stdout.write(" ");
+//     }
+//     process.stdout.write("\n");
+// }
+
+// let m = 3;
+// for(let i = 1; i <= m; i++){
+//     for(let j = i; j <= m; j++){
+//         process.stdout.write("*");
+//         process.stdout.write(" ");
+//     }
 //     process.stdout.write("\n");
 // }
