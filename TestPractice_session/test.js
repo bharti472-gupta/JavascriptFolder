@@ -626,6 +626,63 @@
  //console.log(Number([]));
  
 
+//CODE WITH HARRY
+// console.log("console");
+// console.info("info");
+
+
+// console.time("forloop")
+// for(let i = 0; i < 500; i++){
+//   console.log(233);
+  
+// }
+// console.timeEnd("forloop")
+
+// console.time("whileloop")
+// let i = 0;
+// while(i < 500){
+//   console.log(233);
+//   i++;
+  
+// }
+// console.timeEnd("whileloop")
+
+// console.log(window);
+// console.log(document);
+// console.log(document.body);
+
+// let age = prompt("Enter your age")
+// age = Number.parseInt(age)
+
+// const canDrive = (age) => {
+//   return age >= 18? true:false
+// }
+// if(canDrive(age)){
+//   alert("Yes you can drive")
+// }
+// else{
+//   alert("You cannot drive")
+// }
+
+
+
+// let age = prompt("Enter your age")
+// age = Number.parseInt(age)
+// let runagain = true;
+// while(runagain){
+//   let age = prompt("Enter your age")
+//   age = Number.parseInt(age)
+//   const canDrive = (age) => {
+//      return age >= 18? true:false
+//   }
+// if(canDrive(age)){
+//   alert("Yes you can drive")
+// }
+// else{
+//   alert("You cannot drive")
+// }
+// runagain = confirm("Do you want to play again?")
+// }
 
 
 
@@ -639,5 +696,61 @@
 
 
 
+
+
+
+
+
+//INFOSYS
+// const fs = require("fs");
+
+// const input = fs.readFileSync(0, "utf8").trim().split("\n");
+
+// let n = Number(input[0]);
+
+// let intervals = [];
+
+// for(let i = 1; i <= n; i++) {
+
+//     let arr = input[i].split(" ").map(Number);
+
+//     intervals.push(arr);
+// }
+
+// let maxTime = 0;
+
+// for(let interval of intervals) {
+
+//     let end = interval[1];
+
+//     if(end > maxTime) {
+//         maxTime = end;
+//     }
+// }
+
+// let answer = 0;
+
+// for(let time = 1; time <= maxTime; time++) {
+
+//     let total = 0;
+
+//     for(let interval of intervals) {
+
+//         let start = interval[0];
+//         let end = interval[1];
+//         let score = interval[2];
+
+//         if(time >= start && time <= end) {
+
+//             total += score;
+//         }
+//     }
+
+//     if(total > answer) {
+//         answer = total;
+//     }
+// }
+
+// console.log(answer);
 
  
